@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TC08 - Payroll Management</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat May 09 20:35:52 IST 2026</td>
+<td>Started on:</td><td>Sat May 09 21:27:20 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>37 seconds (37081 ms)</td>
+<tr><td>Total time:</td><td>39 seconds (39378 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,155 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_009_getPayslipsForSeededCycle()'><b>tc_pay_009_getPayslipsForSeededCycle</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Get payslips for seeded pay cycle id=1 (Feb 2026, PAID)</td>
-<td><div><pre>java.lang.AssertionError: Feb 2026 cycle should have 2 seeded payslips expected [true] but found [false]
-	at com.rivio.tests.TC08_PayrollTest.tc_pay_009_getPayslipsForSeededCycle(TC08_PayrollTest.java:222)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace980133403", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace980133403'><pre>java.lang.AssertionError: Feb 2026 cycle should have 2 seeded payslips expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.rivio.tests.TC08_PayrollTest.tc_pay_009_getPayslipsForSeededCycle(TC08_PayrollTest.java:222)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>3</td>
-<td>com.rivio.tests.TC08_PayrollTest@6de30571</td></tr>
-<tr>
-<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_002_getSalaryComponentsBob()'><b>tc_pay_002_getSalaryComponentsBob</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Get salary components for Bob Marley (empProfile 4)</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.rivio.tests.TC08_PayrollTest.tc_pay_002_getSalaryComponentsBob(TC08_PayrollTest.java:69)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1622619173", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1622619173'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.rivio.tests.TC08_PayrollTest.tc_pay_002_getSalaryComponentsBob(TC08_PayrollTest.java:69)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>1</td>
-<td>com.rivio.tests.TC08_PayrollTest@6de30571</td></tr>
-<tr>
-<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_001_getSalaryComponentsJohn()'><b>tc_pay_001_getSalaryComponentsJohn</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Get salary components for John Doe (empProfile 1)</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.rivio.tests.TC08_PayrollTest.tc_pay_001_getSalaryComponentsJohn(TC08_PayrollTest.java:51)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace298844987", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace298844987'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.rivio.tests.TC08_PayrollTest.tc_pay_001_getSalaryComponentsJohn(TC08_PayrollTest.java:51)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>1</td>
-<td>com.rivio.tests.TC08_PayrollTest@6de30571</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -227,38 +78,53 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.rivio.tests.TC08_PayrollTest.tc_pay_008_createPayCycle()'><b>tc_pay_008_createPayCycle</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Create a future pay cycle (date-unique per run)</td>
 <td></td>
-<td>3</td>
-<td>com.rivio.tests.TC08_PayrollTest@6de30571</td></tr>
+<td>2</td>
+<td>com.rivio.tests.TC08_PayrollTest@6272c96f</td></tr>
 <tr>
-<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_007_searchPayCycles()'><b>tc_pay_007_searchPayCycles</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Search pay cycles by name 'February'</td>
-<td></td>
-<td>1</td>
-<td>com.rivio.tests.TC08_PayrollTest@6de30571</td></tr>
-<tr>
-<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_006_listPayCycles()'><b>tc_pay_006_listPayCycles</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: List all pay cycles — expect 2 seeded (Feb + Mar 2026)</td>
+<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_002_getSalaryComponentsBob()'><b>tc_pay_002_getSalaryComponentsBob</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Get salary components for Bob Marley (empProfile 4)</td>
 <td></td>
 <td>2</td>
-<td>com.rivio.tests.TC08_PayrollTest@6de30571</td></tr>
-<tr>
-<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_005_deleteSalaryComponent()'><b>tc_pay_005_deleteSalaryComponent</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Delete the Transport Allowance component</td>
-<td></td>
-<td>2</td>
-<td>com.rivio.tests.TC08_PayrollTest@6de30571</td></tr>
-<tr>
-<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_004_updateSalaryComponent()'><b>tc_pay_004_updateSalaryComponent</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Update Transport Allowance value to 6000</td>
-<td></td>
-<td>3</td>
-<td>com.rivio.tests.TC08_PayrollTest@6de30571</td></tr>
-<tr>
-<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_010_generateAndFinalizePayCycle()'><b>tc_pay_010_generateAndFinalizePayCycle</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Generate payslips then finalize April 2026 pay cycle</td>
-<td></td>
-<td>14</td>
-<td>com.rivio.tests.TC08_PayrollTest@6de30571</td></tr>
+<td>com.rivio.tests.TC08_PayrollTest@6272c96f</td></tr>
 <tr>
 <td title='com.rivio.tests.TC08_PayrollTest.tc_pay_003_createSalaryComponent()'><b>tc_pay_003_createSalaryComponent</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Add a Transport Allowance to Alice (empProfile 3)</td>
 <td></td>
 <td>2</td>
-<td>com.rivio.tests.TC08_PayrollTest@6de30571</td></tr>
+<td>com.rivio.tests.TC08_PayrollTest@6272c96f</td></tr>
+<tr>
+<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_001_getSalaryComponentsJohn()'><b>tc_pay_001_getSalaryComponentsJohn</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Get salary components for John Doe (empProfile 1)</td>
+<td></td>
+<td>1</td>
+<td>com.rivio.tests.TC08_PayrollTest@6272c96f</td></tr>
+<tr>
+<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_009_getPayslipsForSeededCycle()'><b>tc_pay_009_getPayslipsForSeededCycle</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Get payslips for seeded pay cycle id=1 (Feb 2026, PAID)</td>
+<td></td>
+<td>3</td>
+<td>com.rivio.tests.TC08_PayrollTest@6272c96f</td></tr>
+<tr>
+<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_010_generateAndFinalizePayCycle()'><b>tc_pay_010_generateAndFinalizePayCycle</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Generate payslips then finalize April 2026 pay cycle</td>
+<td></td>
+<td>16</td>
+<td>com.rivio.tests.TC08_PayrollTest@6272c96f</td></tr>
+<tr>
+<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_004_updateSalaryComponent()'><b>tc_pay_004_updateSalaryComponent</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Update Transport Allowance value to 6000</td>
+<td></td>
+<td>3</td>
+<td>com.rivio.tests.TC08_PayrollTest@6272c96f</td></tr>
+<tr>
+<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_005_deleteSalaryComponent()'><b>tc_pay_005_deleteSalaryComponent</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Delete the Transport Allowance component</td>
+<td></td>
+<td>2</td>
+<td>com.rivio.tests.TC08_PayrollTest@6272c96f</td></tr>
+<tr>
+<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_006_listPayCycles()'><b>tc_pay_006_listPayCycles</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: List all pay cycles — expect 2 seeded (Feb + Mar 2026)</td>
+<td></td>
+<td>2</td>
+<td>com.rivio.tests.TC08_PayrollTest@6272c96f</td></tr>
+<tr>
+<td title='com.rivio.tests.TC08_PayrollTest.tc_pay_007_searchPayCycles()'><b>tc_pay_007_searchPayCycles</b><br>Test class: com.rivio.tests.TC08_PayrollTest<br>Test method: Search pay cycles by name 'February'</td>
+<td></td>
+<td>1</td>
+<td>com.rivio.tests.TC08_PayrollTest@6272c96f</td></tr>
 </table><p>
 </body>
 </html>

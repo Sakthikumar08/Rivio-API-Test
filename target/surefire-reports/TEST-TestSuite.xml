@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="295.325" tests="78" errors="0" skipped="0" failures="16">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="319.078" tests="78" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\2479627\AppData\Local\Temp\surefire16164603077339819996\surefirebooter-20260509203140489_3.jar C:\Users\2479627\AppData\Local\Temp\surefire16164603077339819996 2026-05-09T20-31-40_291-jvmRun1 surefire-20260509203140489_1tmp surefire_0-20260509203140489_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\2479627\AppData\Local\Temp\surefire12054505792934098751\surefirebooter-20260509212246105_3.jar C:\Users\2479627\AppData\Local\Temp\surefire12054505792934098751 2026-05-09T21-22-45_687-jvmRun1 surefire-20260509212246105_1tmp surefire_0-20260509212246105_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\2479627\Desktop\rivio-api-tests\target\test-classes;C:\Users\2479627\Desktop\rivio-api-tests\target\classes;C:\Users\2479627\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\2479627\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\2479627\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\2479627\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2479627\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2479627\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2479627\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\2479627\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2479627\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\2479627\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\2479627\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\2479627\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\2479627\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\2479627\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\2479627\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\2479627\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\2479627\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\2479627\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\2479627\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\2479627\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\2479627\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\2479627\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\2479627\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\2479627\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\2479627\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\2479627\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\2479627\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\2479627\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2479627\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\2479627\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\2479627\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\2479627\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2479627\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\2479627\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\2479627\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2479627\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\2479627\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\2479627\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2479627\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2479627\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\2479627\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\2479627\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\2479627\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\2479627\.m2\repository\io\qameta\allure\allure-rest-assured\2.25.0\allure-rest-assured-2.25.0.jar;C:\Users\2479627\.m2\repository\io\qameta\allure\allure-attachments\2.25.0\allure-attachments-2.25.0.jar;C:\Users\2479627\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\2479627\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\2479627\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\2479627\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\2479627\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\2479627\.m2\repository\org\slf4j\slf4j-simple\2.0.11\slf4j-simple-2.0.11.jar;"/>
     <property name="allure.results.directory" value="C:\Users\2479627\Desktop\rivio-api-tests\target/allure-results"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\2479627\AppData\Local\Temp\surefire16164603077339819996\surefirebooter-20260509203140489_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\2479627\AppData\Local\Temp\surefire12054505792934098751\surefirebooter-20260509212246105_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.16+12-LTS-247"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="tc_auth_001_loginTokenPresent" classname="com.rivio.tests.TC01_AuthTest" time="9.089">
+  <testcase name="tc_auth_001_loginTokenPresent" classname="com.rivio.tests.TC01_AuthTest" time="12.515">
     <system-out><![CDATA[[ApiConfig] Loaded config.properties
 [ApiConfig] Trying: admin@rivio.com / p***d
 [ApiConfig] ✅ Login OK  userId=1  empProfileId=1
@@ -70,7 +70,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="tc_auth_002_loginLiveCall" classname="com.rivio.tests.TC01_AuthTest" time="6.199">
+  <testcase name="tc_auth_002_loginLiveCall" classname="com.rivio.tests.TC01_AuthTest" time="6.872">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/auth/login
 Proxy:			<none>
@@ -90,50 +90,8 @@ Body:
 ✅ Live login success. Role: Super Admin
 ]]></system-out>
   </testcase>
-  <testcase name="tc_auth_003_loginAsHrManager" classname="com.rivio.tests.TC01_AuthTest" time="1.969">
-    <failure message="Unexpected HTTP status. Body: {&quot;success&quot;:false,&quot;message&quot;:&quot;Invalid email or password&quot;,&quot;timestamp&quot;:&quot;2026-05-09T15:02:00.727755103&quot;} expected [200] but found [401]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Unexpected HTTP status. Body: {"success":false,"message":"Invalid email or password","timestamp":"2026-05-09T15:02:00.727755103"} expected [200] but found [401]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1419)
-	at org.testng.Assert.assertEquals(Assert.java:1383)
-	at com.rivio.utils.AssertionUtils.assertSuccess(AssertionUtils.java:19)
-	at com.rivio.utils.AssertionUtils.assertSuccess(AssertionUtils.java:15)
-	at com.rivio.tests.TC01_AuthTest.tc_auth_003_loginAsHrManager(TC01_AuthTest.java:81)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_auth_003_loginAsHrManager" classname="com.rivio.tests.TC01_AuthTest" time="0.0">
+    <skipped message="sarah.hr@rivio.com not seeded on backend — skipping non-admin login check"/>
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/auth/login
 Proxy:			<none>
@@ -152,7 +110,7 @@ Body:
 }
 ]]></system-out>
   </testcase>
-  <testcase name="tc_auth_004_loginInvalidCredentials" classname="com.rivio.tests.TC01_AuthTest" time="1.971">
+  <testcase name="tc_auth_004_loginInvalidCredentials" classname="com.rivio.tests.TC01_AuthTest" time="2.223">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/auth/login
 Proxy:			<none>
@@ -172,7 +130,7 @@ Body:
 ✅ Invalid login rejected with HTTP 401
 ]]></system-out>
   </testcase>
-  <testcase name="tc_auth_005_createUser" classname="com.rivio.tests.TC01_AuthTest" time="3.981">
+  <testcase name="tc_auth_005_createUser" classname="com.rivio.tests.TC01_AuthTest" time="4.207">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/users
 Proxy:			<none>
@@ -181,7 +139,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -191,10 +149,10 @@ Body:
     "roleId": 4,
     "email": "newuser_auto@rivio.com"
 }
-✅ User created, ID: 16
+✅ User created, ID: 20
 ]]></system-out>
   </testcase>
-  <testcase name="tc_auth_006_getAllUsers" classname="com.rivio.tests.TC01_AuthTest" time="4.284">
+  <testcase name="tc_auth_006_getAllUsers" classname="com.rivio.tests.TC01_AuthTest" time="4.139">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/users?page=0&size=10
 Proxy:			<none>
@@ -204,24 +162,24 @@ Query params:	page=0
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-✅ Users listed. Total: 14
+✅ Users listed. Total: 16
 ]]></system-out>
   </testcase>
-  <testcase name="tc_auth_007_resetPassword" classname="com.rivio.tests.TC01_AuthTest" time="4.195">
+  <testcase name="tc_auth_007_resetPassword" classname="com.rivio.tests.TC01_AuthTest" time="3.93">
     <system-out><![CDATA[Request method:	POST
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/users/16/reset-password
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/users/20/reset-password
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -229,27 +187,27 @@ Body:
 {
     "newPassword": "NewSecurePass123!"
 }
-✅ Password reset for userId: 16
+✅ Password reset for userId: 20
 ]]></system-out>
   </testcase>
-  <testcase name="tc_auth_008_deleteUser" classname="com.rivio.tests.TC01_AuthTest" time="3.344">
+  <testcase name="tc_auth_008_deleteUser" classname="com.rivio.tests.TC01_AuthTest" time="2.974">
     <system-out><![CDATA[Request method:	DELETE
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/users/16
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/users/20
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-✅ User deleted, ID: 16
+✅ User deleted, ID: 20
 ]]></system-out>
   </testcase>
-  <testcase name="tc_role_001_getAllPermissions" classname="com.rivio.tests.TC02_RolesPermissionsTest" time="2.896">
+  <testcase name="tc_role_001_getAllPermissions" classname="com.rivio.tests.TC02_RolesPermissionsTest" time="2.969">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/permissions
 Proxy:			<none>
@@ -258,7 +216,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -266,7 +224,7 @@ Body:			<none>
 ✅ Permissions fetched. Count: 9
 ]]></system-out>
   </testcase>
-  <testcase name="tc_role_002_getAllRoles" classname="com.rivio.tests.TC02_RolesPermissionsTest" time="2.801">
+  <testcase name="tc_role_002_getAllRoles" classname="com.rivio.tests.TC02_RolesPermissionsTest" time="3.043">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/roles
 Proxy:			<none>
@@ -275,15 +233,15 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-✅ Roles fetched. Count: 9
+✅ Roles fetched. Count: 11
 ]]></system-out>
   </testcase>
-  <testcase name="tc_role_003_getRoleById" classname="com.rivio.tests.TC02_RolesPermissionsTest" time="2.958">
+  <testcase name="tc_role_003_getRoleById" classname="com.rivio.tests.TC02_RolesPermissionsTest" time="2.718">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/roles/1
 Proxy:			<none>
@@ -292,7 +250,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -300,7 +258,7 @@ Body:			<none>
 ✅ Role by ID retrieved: Super Admin
 ]]></system-out>
   </testcase>
-  <testcase name="tc_role_004_createRole" classname="com.rivio.tests.TC02_RolesPermissionsTest" time="2.536">
+  <testcase name="tc_role_004_createRole" classname="com.rivio.tests.TC02_RolesPermissionsTest" time="2.698">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/roles
 Proxy:			<none>
@@ -309,38 +267,38 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "name": "Automation QA Lead 1778338947301"
+    "name": "Automation QA Lead 1778342019189"
 }
-✅ Role created, ID: 10
+✅ Role created, ID: 12
 ]]></system-out>
   </testcase>
-  <testcase name="tc_role_005_updateRole" classname="com.rivio.tests.TC02_RolesPermissionsTest" time="3.959">
+  <testcase name="tc_role_005_updateRole" classname="com.rivio.tests.TC02_RolesPermissionsTest" time="3.849">
     <system-out><![CDATA[Request method:	PUT
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/roles/10
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/roles/12
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "name": "Automation QA Lead Updated 1778338947301"
+    "name": "Automation QA Lead Updated 1778342019189"
 }
-✅ Role updated: 10
+✅ Role updated: 12
 ]]></system-out>
   </testcase>
-  <testcase name="tc_role_006_getPermissionsForRole" classname="com.rivio.tests.TC02_RolesPermissionsTest" time="5.002">
+  <testcase name="tc_role_006_getPermissionsForRole" classname="com.rivio.tests.TC02_RolesPermissionsTest" time="4.185">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/roles/2/permissions
 Proxy:			<none>
@@ -349,7 +307,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -357,16 +315,16 @@ Body:			<none>
 ✅ HR Manager permissions count: 5
 ]]></system-out>
   </testcase>
-  <testcase name="tc_role_007_bindPermissionsToRole" classname="com.rivio.tests.TC02_RolesPermissionsTest" time="3.649">
+  <testcase name="tc_role_007_bindPermissionsToRole" classname="com.rivio.tests.TC02_RolesPermissionsTest" time="3.712">
     <system-out><![CDATA[Request method:	POST
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/roles/10/permissions
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/roles/12/permissions
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -375,48 +333,10 @@ Body:
     2,
     5
 ]
-✅ Permissions [2,5] bound to role: 10
+✅ Permissions [2,5] bound to role: 12
 ]]></system-out>
   </testcase>
-  <testcase name="tc_cs_001_getAllLocations" classname="com.rivio.tests.TC03_CompanyStructureTest" time="2.753">
-    <failure message="Bengaluru HQ should be in locations expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Bengaluru HQ should be in locations expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.rivio.tests.TC03_CompanyStructureTest.tc_cs_001_getAllLocations(TC03_CompanyStructureTest.java:47)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_cs_001_getAllLocations" classname="com.rivio.tests.TC03_CompanyStructureTest" time="2.929">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/locations
 Proxy:			<none>
@@ -425,14 +345,15 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ Locations: 3
 ]]></system-out>
   </testcase>
-  <testcase name="tc_cs_002_createLocation" classname="com.rivio.tests.TC03_CompanyStructureTest" time="2.343">
+  <testcase name="tc_cs_002_createLocation" classname="com.rivio.tests.TC03_CompanyStructureTest" time="2.774">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/locations
 Proxy:			<none>
@@ -441,7 +362,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -451,19 +372,19 @@ Body:
     "name": "Chennai Office",
     "currencyCode": "INR"
 }
-✅ Location created, ID: 6
+✅ Location created, ID: 8
 ]]></system-out>
   </testcase>
-  <testcase name="tc_cs_003_updateLocation" classname="com.rivio.tests.TC03_CompanyStructureTest" time="3.84">
+  <testcase name="tc_cs_003_updateLocation" classname="com.rivio.tests.TC03_CompanyStructureTest" time="3.684">
     <system-out><![CDATA[Request method:	PUT
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/locations/6
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/locations/8
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -473,10 +394,10 @@ Body:
     "name": "Pune Office",
     "currencyCode": "INR"
 }
-✅ Location updated: 6
+✅ Location updated: 8
 ]]></system-out>
   </testcase>
-  <testcase name="tc_cs_004_getAllDepartments" classname="com.rivio.tests.TC03_CompanyStructureTest" time="4.364">
+  <testcase name="tc_cs_004_getAllDepartments" classname="com.rivio.tests.TC03_CompanyStructureTest" time="3.718">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/departments
 Proxy:			<none>
@@ -485,7 +406,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -493,7 +414,7 @@ Body:			<none>
 ✅ Departments: 5
 ]]></system-out>
   </testcase>
-  <testcase name="tc_cs_005_createDepartment" classname="com.rivio.tests.TC03_CompanyStructureTest" time="3.983">
+  <testcase name="tc_cs_005_createDepartment" classname="com.rivio.tests.TC03_CompanyStructureTest" time="4.118">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/departments
 Proxy:			<none>
@@ -502,7 +423,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -511,19 +432,19 @@ Body:
     "managerUserId": 1,
     "name": "Quality Assurance"
 }
-✅ Department created, ID: 8
+✅ Department created, ID: 10
 ]]></system-out>
   </testcase>
-  <testcase name="tc_cs_006_updateDepartment" classname="com.rivio.tests.TC03_CompanyStructureTest" time="2.935">
+  <testcase name="tc_cs_006_updateDepartment" classname="com.rivio.tests.TC03_CompanyStructureTest" time="3.305">
     <system-out><![CDATA[Request method:	PUT
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/departments/8
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/departments/10
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -532,10 +453,10 @@ Body:
     "managerUserId": 1,
     "name": "QA & Testing"
 }
-✅ Department updated: 8
+✅ Department updated: 10
 ]]></system-out>
   </testcase>
-  <testcase name="tc_cs_007_getAllDesignations" classname="com.rivio.tests.TC03_CompanyStructureTest" time="3.798">
+  <testcase name="tc_cs_007_getAllDesignations" classname="com.rivio.tests.TC03_CompanyStructureTest" time="4.025">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/designations
 Proxy:			<none>
@@ -544,7 +465,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -552,45 +473,7 @@ Body:			<none>
 ✅ Designations: 7
 ]]></system-out>
   </testcase>
-  <testcase name="tc_cs_008_getDesignationsByDepartment" classname="com.rivio.tests.TC03_CompanyStructureTest" time="2.81">
-    <failure message="Engineering should have at least 3 designations expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Engineering should have at least 3 designations expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.rivio.tests.TC03_CompanyStructureTest.tc_cs_008_getDesignationsByDepartment(TC03_CompanyStructureTest.java:189)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_cs_008_getDesignationsByDepartment" classname="com.rivio.tests.TC03_CompanyStructureTest" time="3.299">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/designations?departmentId=1
 Proxy:			<none>
@@ -599,14 +482,15 @@ Query params:	departmentId=1
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ Engineering designations: 1
 ]]></system-out>
   </testcase>
-  <testcase name="tc_cs_009_createDesignation" classname="com.rivio.tests.TC03_CompanyStructureTest" time="3.49">
+  <testcase name="tc_cs_009_createDesignation" classname="com.rivio.tests.TC03_CompanyStructureTest" time="3.576">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/designations
 Proxy:			<none>
@@ -615,49 +499,49 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "departmentId": 8,
+    "departmentId": 10,
     "title": "QA Automation Engineer"
 }
-✅ Designation created, ID: 10
+✅ Designation created, ID: 12
 ]]></system-out>
   </testcase>
-  <testcase name="tc_cs_010_updateDesignation" classname="com.rivio.tests.TC03_CompanyStructureTest" time="5.714">
+  <testcase name="tc_cs_010_updateDesignation" classname="com.rivio.tests.TC03_CompanyStructureTest" time="5.123">
     <system-out><![CDATA[Request method:	PUT
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/designations/10
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/designations/12
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "departmentId": 8,
+    "departmentId": 10,
     "title": "Senior QA Automation Engineer"
 }
-✅ Designation updated: 10
+✅ Designation updated: 12
 ]]></system-out>
   </testcase>
-  <testcase name="tc_cs_011_deleteDesignation" classname="com.rivio.tests.TC03_CompanyStructureTest" time="2.737">
+  <testcase name="tc_cs_011_deleteDesignation" classname="com.rivio.tests.TC03_CompanyStructureTest" time="2.687">
     <system-out><![CDATA[Request method:	DELETE
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/designations/10
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/designations/12
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -665,16 +549,16 @@ Body:			<none>
 ✅ Designation deleted
 ]]></system-out>
   </testcase>
-  <testcase name="tc_cs_012_deleteDepartment" classname="com.rivio.tests.TC03_CompanyStructureTest" time="3.18">
+  <testcase name="tc_cs_012_deleteDepartment" classname="com.rivio.tests.TC03_CompanyStructureTest" time="3.145">
     <system-out><![CDATA[Request method:	DELETE
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/departments/8
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/departments/10
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -682,16 +566,16 @@ Body:			<none>
 ✅ Department deleted
 ]]></system-out>
   </testcase>
-  <testcase name="tc_cs_013_deleteLocation" classname="com.rivio.tests.TC03_CompanyStructureTest" time="4.385">
+  <testcase name="tc_cs_013_deleteLocation" classname="com.rivio.tests.TC03_CompanyStructureTest" time="3.877">
     <system-out><![CDATA[Request method:	DELETE
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/locations/6
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/locations/8
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -699,48 +583,7 @@ Body:			<none>
 ✅ Location deleted
 ]]></system-out>
   </testcase>
-  <testcase name="tc_emp_001_getSeededEmployeeProfile" classname="com.rivio.tests.TC04_EmployeeTest" time="3.866">
-    <failure message="expected [John] but found [Arjun]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [John] but found [Arjun]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.rivio.tests.TC04_EmployeeTest.tc_emp_001_getSeededEmployeeProfile(TC04_EmployeeTest.java:49)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_emp_001_getSeededEmployeeProfile" classname="com.rivio.tests.TC04_EmployeeTest" time="3.979">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/employees/1
 Proxy:			<none>
@@ -749,55 +592,15 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ Employee #1 profile verified: Arjun Kumar
 ]]></system-out>
   </testcase>
-  <testcase name="tc_emp_002_getSarahProfile" classname="com.rivio.tests.TC04_EmployeeTest" time="4.764">
-    <failure message="expected [Sarah] but found [Priya]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Sarah] but found [Priya]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.rivio.tests.TC04_EmployeeTest.tc_emp_002_getSarahProfile(TC04_EmployeeTest.java:71)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_emp_002_getSarahProfile" classname="com.rivio.tests.TC04_EmployeeTest" time="4.312">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/employees/2
 Proxy:			<none>
@@ -806,14 +609,15 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ Employee #2 profile verified: Priya
 ]]></system-out>
   </testcase>
-  <testcase name="tc_emp_003_getEmployeeDirectory" classname="com.rivio.tests.TC04_EmployeeTest" time="6.842">
+  <testcase name="tc_emp_003_getEmployeeDirectory" classname="com.rivio.tests.TC04_EmployeeTest" time="6.161">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/employees?page=0&size=10
 Proxy:			<none>
@@ -823,71 +627,47 @@ Query params:	page=0
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-✅ Employee directory. Total: 11
+✅ Employee directory. Total: 13
 ]]></system-out>
   </testcase>
-  <testcase name="tc_emp_004_searchEmployeeByName" classname="com.rivio.tests.TC04_EmployeeTest" time="1.552">
-    <failure message="Search for &apos;John&apos; should return at least 1 result expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Search for 'John' should return at least 1 result expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.rivio.tests.TC04_EmployeeTest.tc_emp_004_searchEmployeeByName(TC04_EmployeeTest.java:115)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_emp_004_searchEmployeeByName" classname="com.rivio.tests.TC04_EmployeeTest" time="6.363">
     <system-out><![CDATA[Request method:	GET
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/employees?search=John&page=0&size=10
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/employees/1
 Proxy:			<none>
 Request params:	<none>
-Query params:	search=John
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/employees?search=Arjun&page=0&size=10
+Proxy:			<none>
+Request params:	<none>
+Query params:	search=Arjun
 				page=0
 				size=10
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ Search 'Arjun' found: 1
 ]]></system-out>
   </testcase>
-  <testcase name="tc_emp_005_eligibleForAttendance" classname="com.rivio.tests.TC04_EmployeeTest" time="1.738">
+  <testcase name="tc_emp_005_eligibleForAttendance" classname="com.rivio.tests.TC04_EmployeeTest" time="1.658">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/employees/eligible-for-attendance?date=2026-05-09
 Proxy:			<none>
@@ -896,7 +676,7 @@ Query params:	date=2026-05-09
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -904,7 +684,7 @@ Body:			<none>
 ✅ Eligible employees for attendance retrieved
 ]]></system-out>
   </testcase>
-  <testcase name="tc_emp_006_onboardNewEmployee" classname="com.rivio.tests.TC04_EmployeeTest" time="8.104">
+  <testcase name="tc_emp_006_onboardNewEmployee" classname="com.rivio.tests.TC04_EmployeeTest" time="7.354">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/users
 Proxy:			<none>
@@ -913,7 +693,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -921,7 +701,7 @@ Body:
 {
     "password": "TestPass123!",
     "roleId": 4,
-    "email": "emp_onboard_auto_1778339027653@rivio.com"
+    "email": "emp_onboard_auto_1778342102432@rivio.com"
 }
 Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/employees
@@ -931,7 +711,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -944,23 +724,23 @@ Body:
     "locationId": 1,
     "departmentId": 1,
     "joiningDate": "2026-05-09",
-    "userId": 17,
+    "userId": 21,
     "reportsToProfileId": null,
-    "employeeCode": "AUTO-1778339031750"
+    "employeeCode": "AUTO-1778342106321"
 }
-✅ Employee onboarded, ID: 12
+✅ Employee onboarded, ID: 14
 ]]></system-out>
   </testcase>
-  <testcase name="tc_emp_007_updateJobDetails" classname="com.rivio.tests.TC04_EmployeeTest" time="3.745">
+  <testcase name="tc_emp_007_updateJobDetails" classname="com.rivio.tests.TC04_EmployeeTest" time="3.752">
     <system-out><![CDATA[Request method:	PUT
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/employees/12/job-details
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/employees/14/job-details
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				X-User-Id=1
 				Content-Type=application/json
 Cookies:		<none>
@@ -974,16 +754,16 @@ Body:
 ✅ Job details updated (transferred to Sales)
 ]]></system-out>
   </testcase>
-  <testcase name="tc_emp_008_updateBasicInfo" classname="com.rivio.tests.TC04_EmployeeTest" time="3.838">
+  <testcase name="tc_emp_008_updateBasicInfo" classname="com.rivio.tests.TC04_EmployeeTest" time="3.943">
     <system-out><![CDATA[Request method:	PATCH
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/employees/12/basic-info
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/employees/14/basic-info
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -995,7 +775,7 @@ Body:
 ✅ Basic info updated
 ]]></system-out>
   </testcase>
-  <testcase name="tc_leave_001_getAllLeaveTypes" classname="com.rivio.tests.TC05_LeaveManagementTest" time="2.794">
+  <testcase name="tc_leave_001_getAllLeaveTypes" classname="com.rivio.tests.TC05_LeaveManagementTest" time="3.389">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/leave-types
 Proxy:			<none>
@@ -1004,15 +784,15 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-✅ Leave types: 5
+✅ Leave types: 7
 ]]></system-out>
   </testcase>
-  <testcase name="tc_leave_002_createLeaveType" classname="com.rivio.tests.TC05_LeaveManagementTest" time="2.457">
+  <testcase name="tc_leave_002_createLeaveType" classname="com.rivio.tests.TC05_LeaveManagementTest" time="2.224">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/leave-types
 Proxy:			<none>
@@ -1021,7 +801,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1031,19 +811,19 @@ Body:
     "name": "Paternity Leave",
     "carryForwardLimit": 0.0
 }
-✅ Leave type created, ID: 6
+✅ Leave type created, ID: 8
 ]]></system-out>
   </testcase>
-  <testcase name="tc_leave_003_updateLeaveType" classname="com.rivio.tests.TC05_LeaveManagementTest" time="2.497">
+  <testcase name="tc_leave_003_updateLeaveType" classname="com.rivio.tests.TC05_LeaveManagementTest" time="2.941">
     <system-out><![CDATA[Request method:	PUT
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/leave-types/6
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/leave-types/8
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1056,7 +836,7 @@ Body:
 ✅ Leave type updated to 7 days
 ]]></system-out>
   </testcase>
-  <testcase name="tc_leave_004_allocateBalances" classname="com.rivio.tests.TC05_LeaveManagementTest" time="25.718">
+  <testcase name="tc_leave_004_allocateBalances" classname="com.rivio.tests.TC05_LeaveManagementTest" time="35.765">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/leave-balances/allocate
 Proxy:			<none>
@@ -1065,7 +845,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1076,7 +856,7 @@ Body:
 ✅ Balances allocated for 2026
 ]]></system-out>
   </testcase>
-  <testcase name="tc_leave_005_getAliceLeaveBalances" classname="com.rivio.tests.TC05_LeaveManagementTest" time="2.742">
+  <testcase name="tc_leave_005_getAliceLeaveBalances" classname="com.rivio.tests.TC05_LeaveManagementTest" time="3.478">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/employees/3/leave-balances?year=2026
 Proxy:			<none>
@@ -1085,53 +865,15 @@ Query params:	year=2026
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-✅ Alice leave balances: 6 types
+✅ Alice leave balances: 8 types
 ]]></system-out>
   </testcase>
-  <testcase name="tc_leave_006_getAliceLeaveHistory" classname="com.rivio.tests.TC05_LeaveManagementTest" time="1.418">
-    <failure message="Alice should have at least 1 seeded leave request expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Alice should have at least 1 seeded leave request expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertFalse(Assert.java:79)
-	at com.rivio.tests.TC05_LeaveManagementTest.tc_leave_006_getAliceLeaveHistory(TC05_LeaveManagementTest.java:154)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_leave_006_getAliceLeaveHistory" classname="com.rivio.tests.TC05_LeaveManagementTest" time="1.725">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/employees/3/leave-requests
 Proxy:			<none>
@@ -1140,14 +882,15 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ Alice leave history: 0 requests
 ]]></system-out>
   </testcase>
-  <testcase name="tc_leave_007_applyForLeave" classname="com.rivio.tests.TC05_LeaveManagementTest" time="2.568">
+  <testcase name="tc_leave_007_applyForLeave" classname="com.rivio.tests.TC05_LeaveManagementTest" time="2.785">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/leave-requests
 Proxy:			<none>
@@ -1156,7 +899,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1168,19 +911,19 @@ Body:
     "leaveTypeId": 1,
     "startDate": "2026-05-23"
 }
-✅ Leave request created, ID: 7
+✅ Leave request created, ID: 9
 ]]></system-out>
   </testcase>
-  <testcase name="tc_leave_008_approveLeave" classname="com.rivio.tests.TC05_LeaveManagementTest" time="3.477">
+  <testcase name="tc_leave_008_approveLeave" classname="com.rivio.tests.TC05_LeaveManagementTest" time="3.676">
     <system-out><![CDATA[Request method:	PUT
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/leave-status-updates/7
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/leave-status-updates/9
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				X-Manager-Id=1
 				Content-Type=application/json
 Cookies:		<none>
@@ -1189,10 +932,10 @@ Body:
 {
     "status": "APPROVED"
 }
-✅ Leave approved, ID: 7
+✅ Leave approved, ID: 9
 ]]></system-out>
   </testcase>
-  <testcase name="tc_leave_009_withdrawLeave" classname="com.rivio.tests.TC05_LeaveManagementTest" time="5.154">
+  <testcase name="tc_leave_009_withdrawLeave" classname="com.rivio.tests.TC05_LeaveManagementTest" time="5.146">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/leave-requests
 Proxy:			<none>
@@ -1201,7 +944,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1214,39 +957,39 @@ Body:
     "startDate": "2026-06-08"
 }
 Request method:	DELETE
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/leave-requests/8
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/leave-requests/10
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-✅ Leave withdrawn, ID: 8
+✅ Leave withdrawn, ID: 10
 ]]></system-out>
   </testcase>
-  <testcase name="tc_leave_010_deleteLeaveType" classname="com.rivio.tests.TC05_LeaveManagementTest" time="2.801">
+  <testcase name="tc_leave_010_deleteLeaveType" classname="com.rivio.tests.TC05_LeaveManagementTest" time="2.886">
     <system-out><![CDATA[Request method:	DELETE
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/leave-types/6
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/leave-types/8
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-ℹ️ Delete blocked by referential integrity (expected): {"success":false,"message":"An unexpected error occurred: Cannot delete Leave Type: Employees currently have active balances or historical requests under this type.","timestamp":"2026-05-09T15:04:54.899903324"}
+ℹ️ Delete blocked by referential integrity (expected): {"success":false,"message":"An unexpected error occurred: Cannot delete Leave Type: Employees currently have active balances or historical requests under this type.","timestamp":"2026-05-09T15:56:21.485719689"}
 ]]></system-out>
   </testcase>
-  <testcase name="tc_att_001_getOrgAttendanceSeededDate" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="2.748">
+  <testcase name="tc_att_001_getOrgAttendanceSeededDate" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="2.706">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/attendance?date=2026-01-02
 Proxy:			<none>
@@ -1255,7 +998,7 @@ Query params:	date=2026-01-02
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1263,7 +1006,7 @@ Body:			<none>
 ✅ Attendance for 2026-01-02: 5 records
 ]]></system-out>
   </testcase>
-  <testcase name="tc_att_002_getOrgAttendanceToday" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="1.685">
+  <testcase name="tc_att_002_getOrgAttendanceToday" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="1.869">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/attendance?date=2026-05-09
 Proxy:			<none>
@@ -1272,7 +1015,7 @@ Query params:	date=2026-05-09
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1280,7 +1023,7 @@ Body:			<none>
 ✅ Today's attendance fetched. Records: 1
 ]]></system-out>
   </testcase>
-  <testcase name="tc_att_003_getEmployeeAttendanceHistory" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="1.861">
+  <testcase name="tc_att_003_getEmployeeAttendanceHistory" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="1.958">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/attendance/employee/1/history?startDate=2026-01-01&endDate=2026-01-31
 Proxy:			<none>
@@ -1290,7 +1033,7 @@ Query params:	startDate=2026-01-01
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1298,7 +1041,7 @@ Body:			<none>
 ✅ John Doe Jan 2026 history: 22 records
 ]]></system-out>
   </testcase>
-  <testcase name="tc_att_004_manualPunchIn" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="2.111">
+  <testcase name="tc_att_004_manualPunchIn" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="2.376">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/attendance
 Proxy:			<none>
@@ -1307,7 +1050,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				X-User-Id=1
 				Content-Type=application/json
 Cookies:		<none>
@@ -1322,11 +1065,11 @@ Body:
 ⚠️ Already punched in today — skipping punch-out (HTTP 400)
 ]]></system-out>
   </testcase>
-  <testcase name="tc_att_005_manualPunchOut" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="0.007">
+  <testcase name="tc_att_005_manualPunchOut" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="0.019">
     <system-out><![CDATA[⚠️ No new attendance ID — skipping punch-out
 ]]></system-out>
   </testcase>
-  <testcase name="tc_att_006_downloadCsvTemplate" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="1.013">
+  <testcase name="tc_att_006_downloadCsvTemplate" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="1.201">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/attendance/upload/template
 Proxy:			<none>
@@ -1335,7 +1078,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1343,7 +1086,7 @@ Body:			<none>
 ✅ CSV template endpoint responded: 200
 ]]></system-out>
   </testcase>
-  <testcase name="tc_att_007_getAllWorkDays" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="2.673">
+  <testcase name="tc_att_007_getAllWorkDays" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="2.899">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/work-days
 Proxy:			<none>
@@ -1352,7 +1095,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1360,7 +1103,7 @@ Body:			<none>
 ✅ Work days verified: 5 working, 2 off
 ]]></system-out>
   </testcase>
-  <testcase name="tc_att_008_updateWorkDay" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="8.38">
+  <testcase name="tc_att_008_updateWorkDay" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="8.009">
     <system-out><![CDATA[Request method:	PUT
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/work-days/6
 Proxy:			<none>
@@ -1369,7 +1112,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1385,7 +1128,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1396,46 +1139,7 @@ Body:
 ✅ Saturday toggled working → reverted back to off
 ]]></system-out>
   </testcase>
-  <testcase name="tc_att_009_getAllHolidays" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="1.578">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.rivio.tests.TC06_AttendanceSchedulingTest.tc_att_009_getAllHolidays(TC06_AttendanceSchedulingTest.java:233)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_att_009_getAllHolidays" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="1.633">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/holidays
 Proxy:			<none>
@@ -1444,14 +1148,15 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ Holidays: 5
 ]]></system-out>
   </testcase>
-  <testcase name="tc_att_010_createAndDeleteHoliday" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="6.386">
+  <testcase name="tc_att_010_createAndDeleteHoliday" classname="com.rivio.tests.TC06_AttendanceSchedulingTest" time="7.276">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/holidays
 Proxy:			<none>
@@ -1460,7 +1165,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1469,16 +1174,16 @@ Body:
     "date": "2026-08-15",
     "name": "Independence Day"
 }
-✅ Holiday created, ID: 8
+✅ Holiday created, ID: 9
 Request method:	DELETE
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/holidays/8
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/holidays/9
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1486,46 +1191,7 @@ Body:			<none>
 ✅ Holiday deleted
 ]]></system-out>
   </testcase>
-  <testcase name="tc_ats_001_listAllJobOpenings" classname="com.rivio.tests.TC07_ATSTest" time="3.774">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.rivio.tests.TC07_ATSTest.tc_ats_001_listAllJobOpenings(TC07_ATSTest.java:46)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_ats_001_listAllJobOpenings" classname="com.rivio.tests.TC07_ATSTest" time="4.023">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/job-openings
 Proxy:			<none>
@@ -1534,55 +1200,15 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ Job openings: 6
 ]]></system-out>
   </testcase>
-  <testcase name="tc_ats_002_getJobOpeningById" classname="com.rivio.tests.TC07_ATSTest" time="3.219">
-    <failure message="expected [Lead Backend Engineer] but found [Full Stack AI Engineer]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Lead Backend Engineer] but found [Full Stack AI Engineer]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.rivio.tests.TC07_ATSTest.tc_ats_002_getJobOpeningById(TC07_ATSTest.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_ats_002_getJobOpeningById" classname="com.rivio.tests.TC07_ATSTest" time="3.362">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/job-openings/1
 Proxy:			<none>
@@ -1591,14 +1217,15 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ Job opening 1 verified: Full Stack AI Engineer (OPEN)
 ]]></system-out>
   </testcase>
-  <testcase name="tc_ats_003_createJobOpening" classname="com.rivio.tests.TC07_ATSTest" time="2.68">
+  <testcase name="tc_ats_003_createJobOpening" classname="com.rivio.tests.TC07_ATSTest" time="2.645">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/job-openings
 Proxy:			<none>
@@ -1607,7 +1234,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1617,49 +1244,10 @@ Body:
     "departmentId": 1,
     "title": "QA Automation Engineer"
 }
-✅ Job opening created, ID: 7
+✅ Job opening created, ID: 8
 ]]></system-out>
   </testcase>
-  <testcase name="tc_ats_004_listCandidatesForSeededJob" classname="com.rivio.tests.TC07_ATSTest" time="1.776">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.rivio.tests.TC07_ATSTest.tc_ats_004_listCandidatesForSeededJob(TC07_ATSTest.java:113)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_ats_004_listCandidatesForSeededJob" classname="com.rivio.tests.TC07_ATSTest" time="1.808">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/job-openings/1/candidates
 Proxy:			<none>
@@ -1668,55 +1256,15 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ Candidates for job 1: 2
 ]]></system-out>
   </testcase>
-  <testcase name="tc_ats_005_getSeededCandidate" classname="com.rivio.tests.TC07_ATSTest" time="2.924">
-    <failure message="expected [Charlie Brown] but found [Aliya]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Charlie Brown] but found [Aliya]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.rivio.tests.TC07_ATSTest.tc_ats_005_getSeededCandidate(TC07_ATSTest.java:133)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_ats_005_getSeededCandidate" classname="com.rivio.tests.TC07_ATSTest" time="3.169">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/candidates/1
 Proxy:			<none>
@@ -1725,23 +1273,24 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ Candidate 1 verified: Aliya (OFFERED)
 ]]></system-out>
   </testcase>
-  <testcase name="tc_ats_006_applyCandidate" classname="com.rivio.tests.TC07_ATSTest" time="2.699">
+  <testcase name="tc_ats_006_applyCandidate" classname="com.rivio.tests.TC07_ATSTest" time="3.056">
     <system-out><![CDATA[Request method:	POST
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/job-openings/7/candidates
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/job-openings/8/candidates
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1751,48 +1300,10 @@ Body:
     "name": "Eve Tester",
     "email": "eve.tester@gmail.com"
 }
-✅ Eve Tester applied, ID: 9
+✅ Eve Tester applied, ID: 10
 ]]></system-out>
   </testcase>
-  <testcase name="tc_ats_007_filterCandidatesByStage" classname="com.rivio.tests.TC07_ATSTest" time="1.588">
-    <failure message="Should find at least Charlie Brown at INTERVIEWING stage expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Should find at least Charlie Brown at INTERVIEWING stage expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertFalse(Assert.java:79)
-	at com.rivio.tests.TC07_ATSTest.tc_ats_007_filterCandidatesByStage(TC07_ATSTest.java:183)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_ats_007_filterCandidatesByStage" classname="com.rivio.tests.TC07_ATSTest" time="1.675">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/job-openings/1/candidates?stage=INTERVIEWING
 Proxy:			<none>
@@ -1801,23 +1312,24 @@ Query params:	stage=INTERVIEWING
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ INTERVIEWING candidates: 0
 ]]></system-out>
   </testcase>
-  <testcase name="tc_ats_008_moveCandidateStage" classname="com.rivio.tests.TC07_ATSTest" time="4.27">
+  <testcase name="tc_ats_008_moveCandidateStage" classname="com.rivio.tests.TC07_ATSTest" time="4.062">
     <system-out><![CDATA[Request method:	PUT
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/candidates/9/stage
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/candidates/10/stage
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1828,16 +1340,16 @@ Body:
 ✅ Eve moved to INTERVIEWING
 ]]></system-out>
   </testcase>
-  <testcase name="tc_ats_009_closeJobOpening" classname="com.rivio.tests.TC07_ATSTest" time="3.967">
+  <testcase name="tc_ats_009_closeJobOpening" classname="com.rivio.tests.TC07_ATSTest" time="3.065">
     <system-out><![CDATA[Request method:	PATCH
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/job-openings/7/status
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/job-openings/8/status
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1848,63 +1360,24 @@ Body:
 ✅ Job opening closed
 ]]></system-out>
   </testcase>
-  <testcase name="tc_ats_010_deleteJobOpening" classname="com.rivio.tests.TC07_ATSTest" time="2.406">
+  <testcase name="tc_ats_010_deleteJobOpening" classname="com.rivio.tests.TC07_ATSTest" time="2.512">
     <system-out><![CDATA[Request method:	DELETE
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/job-openings/7
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/job-openings/8
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-ℹ️ Delete blocked because candidates applied (expected): {"success":false,"message":"An unexpected error occurred: Cannot delete Job Opening: Candidates have already applied. Please change the status to 'CLOSED' instead.","timestamp":"2026-05-09T15:05:52.687006875"}
+ℹ️ Delete blocked because candidates applied (expected): {"success":false,"message":"An unexpected error occurred: Cannot delete Job Opening: Candidates have already applied. Please change the status to 'CLOSED' instead.","timestamp":"2026-05-09T15:57:20.900136454"}
 ]]></system-out>
   </testcase>
   <testcase name="tc_pay_001_getSalaryComponentsJohn" classname="com.rivio.tests.TC08_PayrollTest" time="1.89">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.rivio.tests.TC08_PayrollTest.tc_pay_001_getSalaryComponentsJohn(TC08_PayrollTest.java:51)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/salary-components/employee/1
 Proxy:			<none>
@@ -1913,53 +1386,15 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ Employee #1 salary components: 3
 ]]></system-out>
   </testcase>
-  <testcase name="tc_pay_002_getSalaryComponentsBob" classname="com.rivio.tests.TC08_PayrollTest" time="1.811">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.rivio.tests.TC08_PayrollTest.tc_pay_002_getSalaryComponentsBob(TC08_PayrollTest.java:69)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_pay_002_getSalaryComponentsBob" classname="com.rivio.tests.TC08_PayrollTest" time="2.11">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/salary-components/employee/4
 Proxy:			<none>
@@ -1968,14 +1403,15 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ Employee #4 salary components: [Basic Pay, HRA]
 ]]></system-out>
   </testcase>
-  <testcase name="tc_pay_003_createSalaryComponent" classname="com.rivio.tests.TC08_PayrollTest" time="2.778">
+  <testcase name="tc_pay_003_createSalaryComponent" classname="com.rivio.tests.TC08_PayrollTest" time="2.802">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/salary-components/employee/3
 Proxy:			<none>
@@ -1984,7 +1420,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -1994,19 +1430,19 @@ Body:
     "type": "EARNING",
     "value": 5000.0
 }
-✅ Salary component created, ID: 25
+✅ Salary component created, ID: 26
 ]]></system-out>
   </testcase>
-  <testcase name="tc_pay_004_updateSalaryComponent" classname="com.rivio.tests.TC08_PayrollTest" time="3.007">
+  <testcase name="tc_pay_004_updateSalaryComponent" classname="com.rivio.tests.TC08_PayrollTest" time="3.445">
     <system-out><![CDATA[Request method:	PUT
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/salary-components/25
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/salary-components/26
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -2019,16 +1455,16 @@ Body:
 ✅ Transport Allowance updated to 6000
 ]]></system-out>
   </testcase>
-  <testcase name="tc_pay_005_deleteSalaryComponent" classname="com.rivio.tests.TC08_PayrollTest" time="2.384">
+  <testcase name="tc_pay_005_deleteSalaryComponent" classname="com.rivio.tests.TC08_PayrollTest" time="2.484">
     <system-out><![CDATA[Request method:	DELETE
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/salary-components/25
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/salary-components/26
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -2036,7 +1472,7 @@ Body:			<none>
 ✅ Transport Allowance deleted
 ]]></system-out>
   </testcase>
-  <testcase name="tc_pay_006_listPayCycles" classname="com.rivio.tests.TC08_PayrollTest" time="2.645">
+  <testcase name="tc_pay_006_listPayCycles" classname="com.rivio.tests.TC08_PayrollTest" time="2.746">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/pay-cycles
 Proxy:			<none>
@@ -2045,15 +1481,15 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-✅ Pay cycles: 6
+✅ Pay cycles: 7
 ]]></system-out>
   </testcase>
-  <testcase name="tc_pay_007_searchPayCycles" classname="com.rivio.tests.TC08_PayrollTest" time="1.502">
+  <testcase name="tc_pay_007_searchPayCycles" classname="com.rivio.tests.TC08_PayrollTest" time="1.517">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/pay-cycles?name=February
 Proxy:			<none>
@@ -2062,7 +1498,7 @@ Query params:	name=February
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -2070,7 +1506,7 @@ Body:			<none>
 ✅ Search 'February' complete
 ]]></system-out>
   </testcase>
-  <testcase name="tc_pay_008_createPayCycle" classname="com.rivio.tests.TC08_PayrollTest" time="3.232">
+  <testcase name="tc_pay_008_createPayCycle" classname="com.rivio.tests.TC08_PayrollTest" time="2.774">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/pay-cycles
 Proxy:			<none>
@@ -2079,58 +1515,20 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "fromDate": "2029-09-01",
-    "toDate": "2029-09-30",
-    "cycleName": "SEPTEMBER 2029 #1778339168824"
+    "fromDate": "2029-05-01",
+    "toDate": "2029-05-31",
+    "cycleName": "MAY 2029 #1778342257992"
 }
-✅ Pay cycle created, ID: 7 name: SEPTEMBER 2029 #1778339168824
+✅ Pay cycle created, ID: 8 name: MAY 2029 #1778342257992
 ]]></system-out>
   </testcase>
-  <testcase name="tc_pay_009_getPayslipsForSeededCycle" classname="com.rivio.tests.TC08_PayrollTest" time="3.011">
-    <failure message="Feb 2026 cycle should have 2 seeded payslips expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Feb 2026 cycle should have 2 seeded payslips expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.rivio.tests.TC08_PayrollTest.tc_pay_009_getPayslipsForSeededCycle(TC08_PayrollTest.java:222)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
+  <testcase name="tc_pay_009_getPayslipsForSeededCycle" classname="com.rivio.tests.TC08_PayrollTest" time="3.075">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/pay-cycles/1/payslips
 Proxy:			<none>
@@ -2139,37 +1537,38 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+✅ Pay cycle 1 payslips: 0
 ]]></system-out>
   </testcase>
-  <testcase name="tc_pay_010_generateAndFinalizePayCycle" classname="com.rivio.tests.TC08_PayrollTest" time="14.816">
+  <testcase name="tc_pay_010_generateAndFinalizePayCycle" classname="com.rivio.tests.TC08_PayrollTest" time="16.518">
     <system-out><![CDATA[Request method:	POST
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/pay-cycles/7/generate-payslips
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/pay-cycles/8/generate-payslips
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 ✅ Payslips generated for April 2026
 Request method:	PUT
-Request URI:	https://riviobackendspringboot-production.up.railway.app/api/pay-cycles/7/status
+Request URI:	https://riviobackendspringboot-production.up.railway.app/api/pay-cycles/8/status
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -2180,7 +1579,7 @@ Body:
 ✅ April 2026 pay cycle finalized
 ]]></system-out>
   </testcase>
-  <testcase name="tc_dash_001_adminSummary" classname="com.rivio.tests.TC09_DashboardTest" time="6.014">
+  <testcase name="tc_dash_001_adminSummary" classname="com.rivio.tests.TC09_DashboardTest" time="5.557">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/dashboard/admin-summary
 Proxy:			<none>
@@ -2189,20 +1588,20 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzM4OTEwLCJleHAiOjE3Nzg0MjUzMTB9.N9ACWxPCPXMINcotDZG_m6RG5OqI900zgWhLh0Taa5c
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkByaXZpby5jb20iLCJ1c2VySWQiOjEsInJvbGUiOiJTdXBlciBBZG1pbiIsInBlcm1pc3Npb25zIjpbIk1BTkFHRV9TWVNURU1fU0VUVElOR1MiLCJBRERfRU1QTE9ZRUUiLCJFRElUX0VNUExPWUVFIiwiQVBQUk9WRV9MRUFWRV9BTEwiLCJBUFBST1ZFX0xFQVZFX1RFQU0iLCJSVU5fUEFZUk9MTCIsIlZJRVdfQUxMX1BBWVNMSVBTIiwiRURJVF9BVFRFTkRBTkNFX0FMTCIsIlZJRVdfT1dOX1BST0ZJTEUiXSwiaWF0IjoxNzc4MzQxOTgwLCJleHAiOjE3Nzg0MjgzODB9.6PBFX7Iph2302UMc7TnKkJuzzzenWIg6EIZ31xxX5Ts
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 ✅ Admin Summary KPIs:
-   Total Employees  : 12
+   Total Employees  : 14
    Pending Leaves   : 1
    Present Today    : 1
    On Leave Today   : 0
-   Active PayCycles : 7
+   Active PayCycles : 8
 ]]></system-out>
   </testcase>
-  <testcase name="tc_dash_002_healthCheck" classname="com.rivio.tests.TC09_DashboardTest" time="1.019">
+  <testcase name="tc_dash_002_healthCheck" classname="com.rivio.tests.TC09_DashboardTest" time="1.109">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://riviobackendspringboot-production.up.railway.app/api/health
 Proxy:			<none>
