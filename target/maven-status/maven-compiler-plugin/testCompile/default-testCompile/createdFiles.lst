@@ -1,0 +1,9 @@
+com\rivio\tests\TC07_ATSTest.class
+com\rivio\tests\TC04_EmployeeTest.class
+com\rivio\tests\TC02_RolesPermissionsTest.class
+com\rivio\tests\TC05_LeaveManagementTest.class
+com\rivio\tests\TC08_PayrollTest.class
+com\rivio\tests\TC01_AuthTest.class
+com\rivio\tests\TC09_DashboardTest.class
+com\rivio\tests\TC03_CompanyStructureTest.class
+com\rivio\tests\TC06_AttendanceSchedulingTest.class

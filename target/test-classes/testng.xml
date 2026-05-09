@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rivio HRMS API Suite" verbose="1" parallel="none" preserveOrder="true">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+        <listener class-name="com.rivio.utils.ApiSummaryListener"/>
+    </listeners>
+
+    <test name="TC01 - Authentication and Users" preserve-order="true">
+        <classes>
+            <class name="com.rivio.tests.TC01_AuthTest"/>
+        </classes>
+    </test>
+
+    <test name="TC02 - Roles and Permissions" preserve-order="true">
+        <classes>
+            <class name="com.rivio.tests.TC02_RolesPermissionsTest"/>
+        </classes>
+    </test>
+
+    <test name="TC03 - Company Structure" preserve-order="true">
+        <classes>
+            <class name="com.rivio.tests.TC03_CompanyStructureTest"/>
+        </classes>
+    </test>
+
+    <test name="TC04 - Employee Management" preserve-order="true">
+        <classes>
+            <class name="com.rivio.tests.TC04_EmployeeTest"/>
+        </classes>
+    </test>
+
+    <test name="TC05 - Leave Management" preserve-order="true">
+        <classes>
+            <class name="com.rivio.tests.TC05_LeaveManagementTest"/>
+        </classes>
+    </test>
+
+    <test name="TC06 - Attendance and Scheduling" preserve-order="true">
+        <classes>
+            <class name="com.rivio.tests.TC06_AttendanceSchedulingTest"/>
+        </classes>
+    </test>
+
+    <test name="TC07 - Applicant Tracking System" preserve-order="true">
+        <classes>
+            <class name="com.rivio.tests.TC07_ATSTest"/>
+        </classes>
+    </test>
+
+    <test name="TC08 - Payroll Management" preserve-order="true">
+        <classes>
+            <class name="com.rivio.tests.TC08_PayrollTest"/>
+        </classes>
+    </test>
+
+    <test name="TC09 - Dashboard Analytics" preserve-order="true">
+        <classes>
+            <class name="com.rivio.tests.TC09_DashboardTest"/>
+        </classes>
+    </test>
+
+</suite>

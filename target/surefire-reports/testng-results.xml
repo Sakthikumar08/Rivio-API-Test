@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="78" passed="62" failed="16" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-09T20:31:43 IST" name="Rivio HRMS API Suite" finished-at="2026-05-09T20:36:36 IST" duration-ms="293447">
+    <groups>
+    </groups>
+    <test started-at="2026-05-09T20:31:43 IST" name="TC01 - Authentication and Users" finished-at="2026-05-09T20:32:18 IST" duration-ms="35130">
+      <class name="com.rivio.tests.TC01_AuthTest">
+        <test-method signature="tc_auth_001_loginTokenPresent()[pri:1, instance:com.rivio.tests.TC01_AuthTest@4b1abd11]" started-at="2026-05-09T20:31:43 IST" name="tc_auth_001_loginTokenPresent" description="Verify admin login token is available" finished-at="2026-05-09T20:31:52 IST" duration-ms="8958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_auth_001_loginTokenPresent -->
+        <test-method signature="tc_auth_002_loginLiveCall()[pri:2, instance:com.rivio.tests.TC01_AuthTest@4b1abd11]" started-at="2026-05-09T20:31:52 IST" name="tc_auth_002_loginLiveCall" description="POST /auth/login with real admin credentials" finished-at="2026-05-09T20:31:58 IST" duration-ms="6196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_auth_002_loginLiveCall -->
+        <test-method signature="tc_auth_003_loginAsHrManager()[pri:3, instance:com.rivio.tests.TC01_AuthTest@4b1abd11]" started-at="2026-05-09T20:31:58 IST" name="tc_auth_003_loginAsHrManager" description="Login as HR Manager (sarah.hr@rivio.com)" finished-at="2026-05-09T20:32:00 IST" duration-ms="1962" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unexpected HTTP status. Body: {"success":false,"message":"Invalid email or password","timestamp":"2026-05-09T15:02:00.727755103"} expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unexpected HTTP status. Body: {"success":false,"message":"Invalid email or password","timestamp":"2026-05-09T15:02:00.727755103"} expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at com.rivio.utils.AssertionUtils.assertSuccess(AssertionUtils.java:19)
+at com.rivio.utils.AssertionUtils.assertSuccess(AssertionUtils.java:15)
+at com.rivio.tests.TC01_AuthTest.tc_auth_003_loginAsHrManager(TC01_AuthTest.java:81)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_auth_003_loginAsHrManager -->
+        <test-method signature="tc_auth_004_loginInvalidCredentials()[pri:4, instance:com.rivio.tests.TC01_AuthTest@4b1abd11]" started-at="2026-05-09T20:32:00 IST" name="tc_auth_004_loginInvalidCredentials" description="Login with wrong password → 401" finished-at="2026-05-09T20:32:02 IST" duration-ms="1969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_auth_004_loginInvalidCredentials -->
+        <test-method signature="tc_auth_005_createUser()[pri:5, instance:com.rivio.tests.TC01_AuthTest@4b1abd11]" started-at="2026-05-09T20:32:02 IST" name="tc_auth_005_createUser" description="Create a new user with roleId=4 (Employee)" finished-at="2026-05-09T20:32:06 IST" duration-ms="3980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_auth_005_createUser -->
+        <test-method signature="tc_auth_006_getAllUsers()[pri:6, instance:com.rivio.tests.TC01_AuthTest@4b1abd11]" started-at="2026-05-09T20:32:06 IST" name="tc_auth_006_getAllUsers" description="Get all users (paginated)" finished-at="2026-05-09T20:32:11 IST" duration-ms="4282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_auth_006_getAllUsers -->
+        <test-method signature="tc_auth_007_resetPassword()[pri:7, instance:com.rivio.tests.TC01_AuthTest@4b1abd11]" started-at="2026-05-09T20:32:11 IST" name="tc_auth_007_resetPassword" description="Reset password for newly created user" finished-at="2026-05-09T20:32:15 IST" depends-on-methods="com.rivio.tests.TC01_AuthTest.tc_auth_005_createUser" duration-ms="4194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_auth_007_resetPassword -->
+        <test-method signature="tc_auth_008_deleteUser()[pri:8, instance:com.rivio.tests.TC01_AuthTest@4b1abd11]" started-at="2026-05-09T20:32:15 IST" name="tc_auth_008_deleteUser" description="Delete the created test user" finished-at="2026-05-09T20:32:18 IST" depends-on-methods="com.rivio.tests.TC01_AuthTest.tc_auth_005_createUser" duration-ms="3345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_auth_008_deleteUser -->
+      </class> <!-- com.rivio.tests.TC01_AuthTest -->
+    </test> <!-- TC01 - Authentication and Users -->
+    <test started-at="2026-05-09T20:32:18 IST" name="TC02 - Roles and Permissions" finished-at="2026-05-09T20:32:42 IST" duration-ms="23806">
+      <class name="com.rivio.tests.TC02_RolesPermissionsTest">
+        <test-method signature="tc_role_001_getAllPermissions()[pri:1, instance:com.rivio.tests.TC02_RolesPermissionsTest@77ee25f1]" started-at="2026-05-09T20:32:18 IST" name="tc_role_001_getAllPermissions" description="Get all permissions — expect 5 seeded records" finished-at="2026-05-09T20:32:21 IST" duration-ms="2894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_role_001_getAllPermissions -->
+        <test-method signature="tc_role_002_getAllRoles()[pri:2, instance:com.rivio.tests.TC02_RolesPermissionsTest@77ee25f1]" started-at="2026-05-09T20:32:21 IST" name="tc_role_002_getAllRoles" description="Get all roles — expect 4 seeded roles" finished-at="2026-05-09T20:32:24 IST" duration-ms="2798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_role_002_getAllRoles -->
+        <test-method signature="tc_role_003_getRoleById()[pri:3, instance:com.rivio.tests.TC02_RolesPermissionsTest@77ee25f1]" started-at="2026-05-09T20:32:24 IST" name="tc_role_003_getRoleById" description="Get role by ID — Super Admin (id=1)" finished-at="2026-05-09T20:32:27 IST" duration-ms="2956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_role_003_getRoleById -->
+        <test-method signature="tc_role_004_createRole()[pri:4, instance:com.rivio.tests.TC02_RolesPermissionsTest@77ee25f1]" started-at="2026-05-09T20:32:27 IST" name="tc_role_004_createRole" description="Create a new custom role" finished-at="2026-05-09T20:32:29 IST" duration-ms="2532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_role_004_createRole -->
+        <test-method signature="tc_role_005_updateRole()[pri:5, instance:com.rivio.tests.TC02_RolesPermissionsTest@77ee25f1]" started-at="2026-05-09T20:32:29 IST" name="tc_role_005_updateRole" description="Update the created role name" finished-at="2026-05-09T20:32:33 IST" depends-on-methods="com.rivio.tests.TC02_RolesPermissionsTest.tc_role_004_createRole" duration-ms="3958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_role_005_updateRole -->
+        <test-method signature="tc_role_006_getPermissionsForRole()[pri:6, instance:com.rivio.tests.TC02_RolesPermissionsTest@77ee25f1]" started-at="2026-05-09T20:32:33 IST" name="tc_role_006_getPermissionsForRole" description="Get permissions for HR Manager (role id=2)" finished-at="2026-05-09T20:32:38 IST" duration-ms="5000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_role_006_getPermissionsForRole -->
+        <test-method signature="tc_role_007_bindPermissionsToRole()[pri:7, instance:com.rivio.tests.TC02_RolesPermissionsTest@77ee25f1]" started-at="2026-05-09T20:32:38 IST" name="tc_role_007_bindPermissionsToRole" description="Bind permissions 2,5 (APPROVE_LEAVE + VIEW_PROFILE) to created role" finished-at="2026-05-09T20:32:42 IST" depends-on-methods="com.rivio.tests.TC02_RolesPermissionsTest.tc_role_004_createRole" duration-ms="3648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_role_007_bindPermissionsToRole -->
+      </class> <!-- com.rivio.tests.TC02_RolesPermissionsTest -->
+    </test> <!-- TC02 - Roles and Permissions -->
+    <test started-at="2026-05-09T20:32:42 IST" name="TC03 - Company Structure" finished-at="2026-05-09T20:33:28 IST" duration-ms="46370">
+      <class name="com.rivio.tests.TC03_CompanyStructureTest">
+        <test-method signature="tc_cs_001_getAllLocations()[pri:1, instance:com.rivio.tests.TC03_CompanyStructureTest@56da52a7]" started-at="2026-05-09T20:32:42 IST" name="tc_cs_001_getAllLocations" description="Get all locations — expect 3 seeded" finished-at="2026-05-09T20:32:45 IST" duration-ms="2747" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Bengaluru HQ should be in locations expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Bengaluru HQ should be in locations expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.rivio.tests.TC03_CompanyStructureTest.tc_cs_001_getAllLocations(TC03_CompanyStructureTest.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cs_001_getAllLocations -->
+        <test-method signature="tc_cs_002_createLocation()[pri:2, instance:com.rivio.tests.TC03_CompanyStructureTest@56da52a7]" started-at="2026-05-09T20:32:45 IST" name="tc_cs_002_createLocation" description="Create a new location — Chennai Office" finished-at="2026-05-09T20:32:47 IST" duration-ms="2341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cs_002_createLocation -->
+        <test-method signature="tc_cs_003_updateLocation()[pri:3, instance:com.rivio.tests.TC03_CompanyStructureTest@56da52a7]" started-at="2026-05-09T20:32:47 IST" name="tc_cs_003_updateLocation" description="Update Chennai Office → Pune Office" finished-at="2026-05-09T20:32:51 IST" depends-on-methods="com.rivio.tests.TC03_CompanyStructureTest.tc_cs_002_createLocation" duration-ms="3841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cs_003_updateLocation -->
+        <test-method signature="tc_cs_004_getAllDepartments()[pri:4, instance:com.rivio.tests.TC03_CompanyStructureTest@56da52a7]" started-at="2026-05-09T20:32:51 IST" name="tc_cs_004_getAllDepartments" description="Get all departments — expect 3 seeded" finished-at="2026-05-09T20:32:55 IST" duration-ms="4361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cs_004_getAllDepartments -->
+        <test-method signature="tc_cs_005_createDepartment()[pri:5, instance:com.rivio.tests.TC03_CompanyStructureTest@56da52a7]" started-at="2026-05-09T20:32:55 IST" name="tc_cs_005_createDepartment" description="Create a new QA department (manager=userId 1)" finished-at="2026-05-09T20:32:59 IST" duration-ms="3975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cs_005_createDepartment -->
+        <test-method signature="tc_cs_006_updateDepartment()[pri:6, instance:com.rivio.tests.TC03_CompanyStructureTest@56da52a7]" started-at="2026-05-09T20:32:59 IST" name="tc_cs_006_updateDepartment" description="Update QA Department name" finished-at="2026-05-09T20:33:02 IST" depends-on-methods="com.rivio.tests.TC03_CompanyStructureTest.tc_cs_005_createDepartment" duration-ms="2933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cs_006_updateDepartment -->
+        <test-method signature="tc_cs_007_getAllDesignations()[pri:7, instance:com.rivio.tests.TC03_CompanyStructureTest@56da52a7]" started-at="2026-05-09T20:33:02 IST" name="tc_cs_007_getAllDesignations" description="Get all designations — expect 5 seeded" finished-at="2026-05-09T20:33:06 IST" duration-ms="3799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cs_007_getAllDesignations -->
+        <test-method signature="tc_cs_008_getDesignationsByDepartment()[pri:8, instance:com.rivio.tests.TC03_CompanyStructureTest@56da52a7]" started-at="2026-05-09T20:33:06 IST" name="tc_cs_008_getDesignationsByDepartment" description="Get designations filtered by Engineering dept (id=1)" finished-at="2026-05-09T20:33:09 IST" duration-ms="2824" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Engineering should have at least 3 designations expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Engineering should have at least 3 designations expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.rivio.tests.TC03_CompanyStructureTest.tc_cs_008_getDesignationsByDepartment(TC03_CompanyStructureTest.java:189)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cs_008_getDesignationsByDepartment -->
+        <test-method signature="tc_cs_009_createDesignation()[pri:9, instance:com.rivio.tests.TC03_CompanyStructureTest@56da52a7]" started-at="2026-05-09T20:33:09 IST" name="tc_cs_009_createDesignation" description="Create QA Automation Engineer designation under QA dept" finished-at="2026-05-09T20:33:12 IST" depends-on-methods="com.rivio.tests.TC03_CompanyStructureTest.tc_cs_005_createDepartment" duration-ms="3490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cs_009_createDesignation -->
+        <test-method signature="tc_cs_010_updateDesignation()[pri:10, instance:com.rivio.tests.TC03_CompanyStructureTest@56da52a7]" started-at="2026-05-09T20:33:12 IST" name="tc_cs_010_updateDesignation" description="Update designation title" finished-at="2026-05-09T20:33:18 IST" depends-on-methods="com.rivio.tests.TC03_CompanyStructureTest.tc_cs_009_createDesignation" duration-ms="5712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cs_010_updateDesignation -->
+        <test-method signature="tc_cs_011_deleteDesignation()[pri:11, instance:com.rivio.tests.TC03_CompanyStructureTest@56da52a7]" started-at="2026-05-09T20:33:18 IST" name="tc_cs_011_deleteDesignation" description="Delete the test designation" finished-at="2026-05-09T20:33:21 IST" depends-on-methods="com.rivio.tests.TC03_CompanyStructureTest.tc_cs_010_updateDesignation" duration-ms="2722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cs_011_deleteDesignation -->
+        <test-method signature="tc_cs_012_deleteDepartment()[pri:12, instance:com.rivio.tests.TC03_CompanyStructureTest@56da52a7]" started-at="2026-05-09T20:33:21 IST" name="tc_cs_012_deleteDepartment" description="Delete the test department" finished-at="2026-05-09T20:33:24 IST" depends-on-methods="com.rivio.tests.TC03_CompanyStructureTest.tc_cs_011_deleteDesignation" duration-ms="3181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cs_012_deleteDepartment -->
+        <test-method signature="tc_cs_013_deleteLocation()[pri:13, instance:com.rivio.tests.TC03_CompanyStructureTest@56da52a7]" started-at="2026-05-09T20:33:24 IST" name="tc_cs_013_deleteLocation" description="Delete the test location" finished-at="2026-05-09T20:33:28 IST" depends-on-methods="com.rivio.tests.TC03_CompanyStructureTest.tc_cs_003_updateLocation" duration-ms="4379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_cs_013_deleteLocation -->
+      </class> <!-- com.rivio.tests.TC03_CompanyStructureTest -->
+    </test> <!-- TC03 - Company Structure -->
+    <test started-at="2026-05-09T20:33:28 IST" name="TC04 - Employee Management" finished-at="2026-05-09T20:34:03 IST" duration-ms="34485">
+      <class name="com.rivio.tests.TC04_EmployeeTest">
+        <test-method signature="tc_emp_001_getSeededEmployeeProfile()[pri:1, instance:com.rivio.tests.TC04_EmployeeTest@34523d46]" started-at="2026-05-09T20:33:28 IST" name="tc_emp_001_getSeededEmployeeProfile" description="Get seeded employee profile — John Doe (id=1)" finished-at="2026-05-09T20:33:32 IST" duration-ms="3865" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [John] but found [Arjun]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [John] but found [Arjun]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.rivio.tests.TC04_EmployeeTest.tc_emp_001_getSeededEmployeeProfile(TC04_EmployeeTest.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_emp_001_getSeededEmployeeProfile -->
+        <test-method signature="tc_emp_002_getSarahProfile()[pri:2, instance:com.rivio.tests.TC04_EmployeeTest@34523d46]" started-at="2026-05-09T20:33:32 IST" name="tc_emp_002_getSarahProfile" description="Get seeded employee — Sarah Connor (id=2)" finished-at="2026-05-09T20:33:37 IST" duration-ms="4762" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Sarah] but found [Priya]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Sarah] but found [Priya]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.rivio.tests.TC04_EmployeeTest.tc_emp_002_getSarahProfile(TC04_EmployeeTest.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_emp_002_getSarahProfile -->
+        <test-method signature="tc_emp_003_getEmployeeDirectory()[pri:3, instance:com.rivio.tests.TC04_EmployeeTest@34523d46]" started-at="2026-05-09T20:33:37 IST" name="tc_emp_003_getEmployeeDirectory" description="Get paginated employee directory — expect 4 seeded" finished-at="2026-05-09T20:33:44 IST" duration-ms="6845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_emp_003_getEmployeeDirectory -->
+        <test-method signature="tc_emp_004_searchEmployeeByName()[pri:4, instance:com.rivio.tests.TC04_EmployeeTest@34523d46]" started-at="2026-05-09T20:33:44 IST" name="tc_emp_004_searchEmployeeByName" description="Search employee directory by name &#039;John&#039;" finished-at="2026-05-09T20:33:45 IST" duration-ms="1552" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Search for 'John' should return at least 1 result expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Search for 'John' should return at least 1 result expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.rivio.tests.TC04_EmployeeTest.tc_emp_004_searchEmployeeByName(TC04_EmployeeTest.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_emp_004_searchEmployeeByName -->
+        <test-method signature="tc_emp_005_eligibleForAttendance()[pri:5, instance:com.rivio.tests.TC04_EmployeeTest@34523d46]" started-at="2026-05-09T20:33:45 IST" name="tc_emp_005_eligibleForAttendance" description="Get employees eligible for attendance today" finished-at="2026-05-09T20:33:47 IST" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_emp_005_eligibleForAttendance -->
+        <test-method signature="tc_emp_006_onboardNewEmployee()[pri:6, instance:com.rivio.tests.TC04_EmployeeTest@34523d46]" started-at="2026-05-09T20:33:47 IST" name="tc_emp_006_onboardNewEmployee" description="Onboard a new employee using a fresh user" finished-at="2026-05-09T20:33:55 IST" duration-ms="8116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_emp_006_onboardNewEmployee -->
+        <test-method signature="tc_emp_007_updateJobDetails()[pri:7, instance:com.rivio.tests.TC04_EmployeeTest@34523d46]" started-at="2026-05-09T20:33:55 IST" name="tc_emp_007_updateJobDetails" description="Transfer Auto Employee to Sales dept (dept=3, desig=5)" finished-at="2026-05-09T20:33:59 IST" depends-on-methods="com.rivio.tests.TC04_EmployeeTest.tc_emp_006_onboardNewEmployee" duration-ms="3745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_emp_007_updateJobDetails -->
+        <test-method signature="tc_emp_008_updateBasicInfo()[pri:8, instance:com.rivio.tests.TC04_EmployeeTest@34523d46]" started-at="2026-05-09T20:33:59 IST" name="tc_emp_008_updateBasicInfo" description="Update phone and bank account for Auto Employee" finished-at="2026-05-09T20:34:03 IST" depends-on-methods="com.rivio.tests.TC04_EmployeeTest.tc_emp_006_onboardNewEmployee" duration-ms="3836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_emp_008_updateBasicInfo -->
+      </class> <!-- com.rivio.tests.TC04_EmployeeTest -->
+    </test> <!-- TC04 - Employee Management -->
+    <test started-at="2026-05-09T20:34:03 IST" name="TC05 - Leave Management" finished-at="2026-05-09T20:34:54 IST" duration-ms="51633">
+      <class name="com.rivio.tests.TC05_LeaveManagementTest">
+        <test-method signature="tc_leave_001_getAllLeaveTypes()[pri:1, instance:com.rivio.tests.TC05_LeaveManagementTest@41aaedaa]" started-at="2026-05-09T20:34:03 IST" name="tc_leave_001_getAllLeaveTypes" description="Get all leave types — expect 3 seeded" finished-at="2026-05-09T20:34:06 IST" duration-ms="2791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_leave_001_getAllLeaveTypes -->
+        <test-method signature="tc_leave_002_createLeaveType()[pri:2, instance:com.rivio.tests.TC05_LeaveManagementTest@41aaedaa]" started-at="2026-05-09T20:34:06 IST" name="tc_leave_002_createLeaveType" description="Create a new leave type — Paternity Leave" finished-at="2026-05-09T20:34:08 IST" duration-ms="2458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_leave_002_createLeaveType -->
+        <test-method signature="tc_leave_003_updateLeaveType()[pri:3, instance:com.rivio.tests.TC05_LeaveManagementTest@41aaedaa]" started-at="2026-05-09T20:34:08 IST" name="tc_leave_003_updateLeaveType" description="Update Paternity Leave → 7 days allotment" finished-at="2026-05-09T20:34:11 IST" depends-on-methods="com.rivio.tests.TC05_LeaveManagementTest.tc_leave_002_createLeaveType" duration-ms="2491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_leave_003_updateLeaveType -->
+        <test-method signature="tc_leave_004_allocateBalances()[pri:4, instance:com.rivio.tests.TC05_LeaveManagementTest@41aaedaa]" started-at="2026-05-09T20:34:11 IST" name="tc_leave_004_allocateBalances" description="Allocate leave balances for 2026" finished-at="2026-05-09T20:34:36 IST" duration-ms="25716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_leave_004_allocateBalances -->
+        <test-method signature="tc_leave_005_getAliceLeaveBalances()[pri:5, instance:com.rivio.tests.TC05_LeaveManagementTest@41aaedaa]" started-at="2026-05-09T20:34:36 IST" name="tc_leave_005_getAliceLeaveBalances" description="Get leave balances for Alice Smith (empProfile id=3)" finished-at="2026-05-09T20:34:39 IST" duration-ms="2739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_leave_005_getAliceLeaveBalances -->
+        <test-method signature="tc_leave_006_getAliceLeaveHistory()[pri:6, instance:com.rivio.tests.TC05_LeaveManagementTest@41aaedaa]" started-at="2026-05-09T20:34:39 IST" name="tc_leave_006_getAliceLeaveHistory" description="Get leave request history for Alice (empProfile 3)" finished-at="2026-05-09T20:34:40 IST" duration-ms="1416" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Alice should have at least 1 seeded leave request expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Alice should have at least 1 seeded leave request expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.rivio.tests.TC05_LeaveManagementTest.tc_leave_006_getAliceLeaveHistory(TC05_LeaveManagementTest.java:154)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_leave_006_getAliceLeaveHistory -->
+        <test-method signature="tc_leave_007_applyForLeave()[pri:7, instance:com.rivio.tests.TC05_LeaveManagementTest@41aaedaa]" started-at="2026-05-09T20:34:40 IST" name="tc_leave_007_applyForLeave" description="Apply for Sick Leave — John Doe (empProfile 1) for next week" finished-at="2026-05-09T20:34:43 IST" duration-ms="2564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_leave_007_applyForLeave -->
+        <test-method signature="tc_leave_008_approveLeave()[pri:8, instance:com.rivio.tests.TC05_LeaveManagementTest@41aaedaa]" started-at="2026-05-09T20:34:43 IST" name="tc_leave_008_approveLeave" description="Approve John Doe&#039;s leave request" finished-at="2026-05-09T20:34:47 IST" depends-on-methods="com.rivio.tests.TC05_LeaveManagementTest.tc_leave_007_applyForLeave" duration-ms="3474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_leave_008_approveLeave -->
+        <test-method signature="tc_leave_009_withdrawLeave()[pri:9, instance:com.rivio.tests.TC05_LeaveManagementTest@41aaedaa]" started-at="2026-05-09T20:34:47 IST" name="tc_leave_009_withdrawLeave" description="Apply and then withdraw a Casual Leave request" finished-at="2026-05-09T20:34:52 IST" duration-ms="5156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_leave_009_withdrawLeave -->
+        <test-method signature="tc_leave_010_deleteLeaveType()[pri:10, instance:com.rivio.tests.TC05_LeaveManagementTest@41aaedaa]" started-at="2026-05-09T20:34:52 IST" name="tc_leave_010_deleteLeaveType" description="Delete the Paternity Leave type (cleanup; tolerated if balances exist)" finished-at="2026-05-09T20:34:54 IST" depends-on-methods="com.rivio.tests.TC05_LeaveManagementTest.tc_leave_002_createLeaveType" duration-ms="2802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_leave_010_deleteLeaveType -->
+      </class> <!-- com.rivio.tests.TC05_LeaveManagementTest -->
+    </test> <!-- TC05 - Leave Management -->
+    <test started-at="2026-05-09T20:34:54 IST" name="TC06 - Attendance and Scheduling" finished-at="2026-05-09T20:35:23 IST" duration-ms="28453">
+      <class name="com.rivio.tests.TC06_AttendanceSchedulingTest">
+        <test-method signature="tc_att_001_getOrgAttendanceSeededDate()[pri:1, instance:com.rivio.tests.TC06_AttendanceSchedulingTest@42c2f48c]" started-at="2026-05-09T20:34:54 IST" name="tc_att_001_getOrgAttendanceSeededDate" description="Get org-wide attendance for 2026-01-02 (seeded PRESENT day)" finished-at="2026-05-09T20:34:57 IST" duration-ms="2747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_att_001_getOrgAttendanceSeededDate -->
+        <test-method signature="tc_att_002_getOrgAttendanceToday()[pri:2, instance:com.rivio.tests.TC06_AttendanceSchedulingTest@42c2f48c]" started-at="2026-05-09T20:34:57 IST" name="tc_att_002_getOrgAttendanceToday" description="Get org-wide attendance for today" finished-at="2026-05-09T20:34:59 IST" duration-ms="1686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_att_002_getOrgAttendanceToday -->
+        <test-method signature="tc_att_003_getEmployeeAttendanceHistory()[pri:3, instance:com.rivio.tests.TC06_AttendanceSchedulingTest@42c2f48c]" started-at="2026-05-09T20:34:59 IST" name="tc_att_003_getEmployeeAttendanceHistory" description="Get attendance history for John Doe (empProfile 1) in Jan 2026" finished-at="2026-05-09T20:35:01 IST" duration-ms="1860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_att_003_getEmployeeAttendanceHistory -->
+        <test-method signature="tc_att_004_manualPunchIn()[pri:4, instance:com.rivio.tests.TC06_AttendanceSchedulingTest@42c2f48c]" started-at="2026-05-09T20:35:01 IST" name="tc_att_004_manualPunchIn" description="Manual punch-in for John Doe (empProfile=1) today" finished-at="2026-05-09T20:35:03 IST" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_att_004_manualPunchIn -->
+        <test-method signature="tc_att_005_manualPunchOut()[pri:5, instance:com.rivio.tests.TC06_AttendanceSchedulingTest@42c2f48c]" started-at="2026-05-09T20:35:03 IST" name="tc_att_005_manualPunchOut" description="Punch out for today&#039;s attendance record" finished-at="2026-05-09T20:35:03 IST" depends-on-methods="com.rivio.tests.TC06_AttendanceSchedulingTest.tc_att_004_manualPunchIn" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_att_005_manualPunchOut -->
+        <test-method signature="tc_att_006_downloadCsvTemplate()[pri:6, instance:com.rivio.tests.TC06_AttendanceSchedulingTest@42c2f48c]" started-at="2026-05-09T20:35:03 IST" name="tc_att_006_downloadCsvTemplate" description="Download bulk attendance CSV template" finished-at="2026-05-09T20:35:04 IST" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_att_006_downloadCsvTemplate -->
+        <test-method signature="tc_att_007_getAllWorkDays()[pri:7, instance:com.rivio.tests.TC06_AttendanceSchedulingTest@42c2f48c]" started-at="2026-05-09T20:35:04 IST" name="tc_att_007_getAllWorkDays" description="Get work days — expect 7 seeded (Mon-Sun)" finished-at="2026-05-09T20:35:07 IST" duration-ms="2671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_att_007_getAllWorkDays -->
+        <test-method signature="tc_att_008_updateWorkDay()[pri:8, instance:com.rivio.tests.TC06_AttendanceSchedulingTest@42c2f48c]" started-at="2026-05-09T20:35:07 IST" name="tc_att_008_updateWorkDay" description="Toggle Saturday (id=6) as a working day" finished-at="2026-05-09T20:35:15 IST" duration-ms="8373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_att_008_updateWorkDay -->
+        <test-method signature="tc_att_009_getAllHolidays()[pri:9, instance:com.rivio.tests.TC06_AttendanceSchedulingTest@42c2f48c]" started-at="2026-05-09T20:35:15 IST" name="tc_att_009_getAllHolidays" description="Get holidays — expect 3 seeded (New Year, Republic Day, Labour Day)" finished-at="2026-05-09T20:35:17 IST" duration-ms="1577" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.rivio.tests.TC06_AttendanceSchedulingTest.tc_att_009_getAllHolidays(TC06_AttendanceSchedulingTest.java:233)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_att_009_getAllHolidays -->
+        <test-method signature="tc_att_010_createAndDeleteHoliday()[pri:10, instance:com.rivio.tests.TC06_AttendanceSchedulingTest@42c2f48c]" started-at="2026-05-09T20:35:17 IST" name="tc_att_010_createAndDeleteHoliday" description="Create a new holiday — Independence Day" finished-at="2026-05-09T20:35:23 IST" duration-ms="6384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_att_010_createAndDeleteHoliday -->
+      </class> <!-- com.rivio.tests.TC06_AttendanceSchedulingTest -->
+    </test> <!-- TC06 - Attendance and Scheduling -->
+    <test started-at="2026-05-09T20:35:23 IST" name="TC07 - Applicant Tracking System" finished-at="2026-05-09T20:35:52 IST" duration-ms="29328">
+      <class name="com.rivio.tests.TC07_ATSTest">
+        <test-method signature="tc_ats_001_listAllJobOpenings()[pri:1, instance:com.rivio.tests.TC07_ATSTest@982bb90]" started-at="2026-05-09T20:35:23 IST" name="tc_ats_001_listAllJobOpenings" description="List all job openings — expect 2 seeded" finished-at="2026-05-09T20:35:27 IST" duration-ms="3768" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.rivio.tests.TC07_ATSTest.tc_ats_001_listAllJobOpenings(TC07_ATSTest.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_ats_001_listAllJobOpenings -->
+        <test-method signature="tc_ats_002_getJobOpeningById()[pri:2, instance:com.rivio.tests.TC07_ATSTest@982bb90]" started-at="2026-05-09T20:35:27 IST" name="tc_ats_002_getJobOpeningById" description="Get job opening id=1 (Lead Backend Engineer)" finished-at="2026-05-09T20:35:30 IST" duration-ms="3219" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Lead Backend Engineer] but found [Full Stack AI Engineer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Lead Backend Engineer] but found [Full Stack AI Engineer]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.rivio.tests.TC07_ATSTest.tc_ats_002_getJobOpeningById(TC07_ATSTest.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_ats_002_getJobOpeningById -->
+        <test-method signature="tc_ats_003_createJobOpening()[pri:3, instance:com.rivio.tests.TC07_ATSTest@982bb90]" started-at="2026-05-09T20:35:30 IST" name="tc_ats_003_createJobOpening" description="Create a new job opening — QA Engineer (dept=1, loc=1)" finished-at="2026-05-09T20:35:33 IST" duration-ms="2693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_ats_003_createJobOpening -->
+        <test-method signature="tc_ats_004_listCandidatesForSeededJob()[pri:4, instance:com.rivio.tests.TC07_ATSTest@982bb90]" started-at="2026-05-09T20:35:33 IST" name="tc_ats_004_listCandidatesForSeededJob" description="List candidates for seeded job id=1" finished-at="2026-05-09T20:35:34 IST" duration-ms="1772" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.rivio.tests.TC07_ATSTest.tc_ats_004_listCandidatesForSeededJob(TC07_ATSTest.java:113)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_ats_004_listCandidatesForSeededJob -->
+        <test-method signature="tc_ats_005_getSeededCandidate()[pri:5, instance:com.rivio.tests.TC07_ATSTest@982bb90]" started-at="2026-05-09T20:35:34 IST" name="tc_ats_005_getSeededCandidate" description="Get seeded candidate id=1 (Charlie Brown)" finished-at="2026-05-09T20:35:37 IST" duration-ms="2922" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Charlie Brown] but found [Aliya]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Charlie Brown] but found [Aliya]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.rivio.tests.TC07_ATSTest.tc_ats_005_getSeededCandidate(TC07_ATSTest.java:133)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_ats_005_getSeededCandidate -->
+        <test-method signature="tc_ats_006_applyCandidate()[pri:6, instance:com.rivio.tests.TC07_ATSTest@982bb90]" started-at="2026-05-09T20:35:37 IST" name="tc_ats_006_applyCandidate" description="Apply a new candidate to the QA Automation Engineer opening" finished-at="2026-05-09T20:35:40 IST" depends-on-methods="com.rivio.tests.TC07_ATSTest.tc_ats_003_createJobOpening" duration-ms="2697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_ats_006_applyCandidate -->
+        <test-method signature="tc_ats_007_filterCandidatesByStage()[pri:7, instance:com.rivio.tests.TC07_ATSTest@982bb90]" started-at="2026-05-09T20:35:40 IST" name="tc_ats_007_filterCandidatesByStage" description="Filter seeded candidates by stage=INTERVIEWING on job 1" finished-at="2026-05-09T20:35:42 IST" duration-ms="1586" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Should find at least Charlie Brown at INTERVIEWING stage expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Should find at least Charlie Brown at INTERVIEWING stage expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.rivio.tests.TC07_ATSTest.tc_ats_007_filterCandidatesByStage(TC07_ATSTest.java:183)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_ats_007_filterCandidatesByStage -->
+        <test-method signature="tc_ats_008_moveCandidateStage()[pri:8, instance:com.rivio.tests.TC07_ATSTest@982bb90]" started-at="2026-05-09T20:35:42 IST" name="tc_ats_008_moveCandidateStage" description="Move Eve Tester from APPLIED → INTERVIEWING" finished-at="2026-05-09T20:35:46 IST" depends-on-methods="com.rivio.tests.TC07_ATSTest.tc_ats_006_applyCandidate" duration-ms="4268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_ats_008_moveCandidateStage -->
+        <test-method signature="tc_ats_009_closeJobOpening()[pri:9, instance:com.rivio.tests.TC07_ATSTest@982bb90]" started-at="2026-05-09T20:35:46 IST" name="tc_ats_009_closeJobOpening" description="Close the QA Automation Engineer opening" finished-at="2026-05-09T20:35:50 IST" depends-on-methods="com.rivio.tests.TC07_ATSTest.tc_ats_003_createJobOpening" duration-ms="3967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_ats_009_closeJobOpening -->
+        <test-method signature="tc_ats_010_deleteJobOpening()[pri:10, instance:com.rivio.tests.TC07_ATSTest@982bb90]" started-at="2026-05-09T20:35:50 IST" name="tc_ats_010_deleteJobOpening" description="Delete the QA Automation Engineer job opening (tolerated if candidates applied)" finished-at="2026-05-09T20:35:52 IST" depends-on-methods="com.rivio.tests.TC07_ATSTest.tc_ats_009_closeJobOpening" duration-ms="2409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_ats_010_deleteJobOpening -->
+      </class> <!-- com.rivio.tests.TC07_ATSTest -->
+    </test> <!-- TC07 - Applicant Tracking System -->
+    <test started-at="2026-05-09T20:35:52 IST" name="TC08 - Payroll Management" finished-at="2026-05-09T20:36:29 IST" duration-ms="37081">
+      <class name="com.rivio.tests.TC08_PayrollTest">
+        <test-method signature="tc_pay_001_getSalaryComponentsJohn()[pri:1, instance:com.rivio.tests.TC08_PayrollTest@6de30571]" started-at="2026-05-09T20:35:52 IST" name="tc_pay_001_getSalaryComponentsJohn" description="Get salary components for John Doe (empProfile 1)" finished-at="2026-05-09T20:35:54 IST" duration-ms="1891" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.rivio.tests.TC08_PayrollTest.tc_pay_001_getSalaryComponentsJohn(TC08_PayrollTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_pay_001_getSalaryComponentsJohn -->
+        <test-method signature="tc_pay_002_getSalaryComponentsBob()[pri:2, instance:com.rivio.tests.TC08_PayrollTest@6de30571]" started-at="2026-05-09T20:35:54 IST" name="tc_pay_002_getSalaryComponentsBob" description="Get salary components for Bob Marley (empProfile 4)" finished-at="2026-05-09T20:35:56 IST" duration-ms="1809" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.rivio.tests.TC08_PayrollTest.tc_pay_002_getSalaryComponentsBob(TC08_PayrollTest.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_pay_002_getSalaryComponentsBob -->
+        <test-method signature="tc_pay_003_createSalaryComponent()[pri:3, instance:com.rivio.tests.TC08_PayrollTest@6de30571]" started-at="2026-05-09T20:35:56 IST" name="tc_pay_003_createSalaryComponent" description="Add a Transport Allowance to Alice (empProfile 3)" finished-at="2026-05-09T20:35:59 IST" duration-ms="2779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_pay_003_createSalaryComponent -->
+        <test-method signature="tc_pay_004_updateSalaryComponent()[pri:4, instance:com.rivio.tests.TC08_PayrollTest@6de30571]" started-at="2026-05-09T20:35:59 IST" name="tc_pay_004_updateSalaryComponent" description="Update Transport Allowance value to 6000" finished-at="2026-05-09T20:36:02 IST" depends-on-methods="com.rivio.tests.TC08_PayrollTest.tc_pay_003_createSalaryComponent" duration-ms="3005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_pay_004_updateSalaryComponent -->
+        <test-method signature="tc_pay_005_deleteSalaryComponent()[pri:5, instance:com.rivio.tests.TC08_PayrollTest@6de30571]" started-at="2026-05-09T20:36:02 IST" name="tc_pay_005_deleteSalaryComponent" description="Delete the Transport Allowance component" finished-at="2026-05-09T20:36:04 IST" depends-on-methods="com.rivio.tests.TC08_PayrollTest.tc_pay_004_updateSalaryComponent" duration-ms="2380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_pay_005_deleteSalaryComponent -->
+        <test-method signature="tc_pay_006_listPayCycles()[pri:6, instance:com.rivio.tests.TC08_PayrollTest@6de30571]" started-at="2026-05-09T20:36:04 IST" name="tc_pay_006_listPayCycles" description="List all pay cycles — expect 2 seeded (Feb + Mar 2026)" finished-at="2026-05-09T20:36:07 IST" duration-ms="2640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_pay_006_listPayCycles -->
+        <test-method signature="tc_pay_007_searchPayCycles()[pri:7, instance:com.rivio.tests.TC08_PayrollTest@6de30571]" started-at="2026-05-09T20:36:07 IST" name="tc_pay_007_searchPayCycles" description="Search pay cycles by name &#039;February&#039;" finished-at="2026-05-09T20:36:08 IST" duration-ms="1498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_pay_007_searchPayCycles -->
+        <test-method signature="tc_pay_008_createPayCycle()[pri:8, instance:com.rivio.tests.TC08_PayrollTest@6de30571]" started-at="2026-05-09T20:36:08 IST" name="tc_pay_008_createPayCycle" description="Create a future pay cycle (date-unique per run)" finished-at="2026-05-09T20:36:12 IST" duration-ms="3227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_pay_008_createPayCycle -->
+        <test-method signature="tc_pay_009_getPayslipsForSeededCycle()[pri:9, instance:com.rivio.tests.TC08_PayrollTest@6de30571]" started-at="2026-05-09T20:36:12 IST" name="tc_pay_009_getPayslipsForSeededCycle" description="Get payslips for seeded pay cycle id=1 (Feb 2026, PAID)" finished-at="2026-05-09T20:36:15 IST" duration-ms="3009" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Feb 2026 cycle should have 2 seeded payslips expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Feb 2026 cycle should have 2 seeded payslips expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.rivio.tests.TC08_PayrollTest.tc_pay_009_getPayslipsForSeededCycle(TC08_PayrollTest.java:222)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_pay_009_getPayslipsForSeededCycle -->
+        <test-method signature="tc_pay_010_generateAndFinalizePayCycle()[pri:10, instance:com.rivio.tests.TC08_PayrollTest@6de30571]" started-at="2026-05-09T20:36:15 IST" name="tc_pay_010_generateAndFinalizePayCycle" description="Generate payslips then finalize April 2026 pay cycle" finished-at="2026-05-09T20:36:29 IST" depends-on-methods="com.rivio.tests.TC08_PayrollTest.tc_pay_008_createPayCycle" duration-ms="14815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_pay_010_generateAndFinalizePayCycle -->
+      </class> <!-- com.rivio.tests.TC08_PayrollTest -->
+    </test> <!-- TC08 - Payroll Management -->
+    <test started-at="2026-05-09T20:36:29 IST" name="TC09 - Dashboard Analytics" finished-at="2026-05-09T20:36:36 IST" duration-ms="7035">
+      <class name="com.rivio.tests.TC09_DashboardTest">
+        <test-method signature="tc_dash_001_adminSummary()[pri:1, instance:com.rivio.tests.TC09_DashboardTest@8a62297]" started-at="2026-05-09T20:36:29 IST" name="tc_dash_001_adminSummary" description="Get admin dashboard summary — validate against seeded data" finished-at="2026-05-09T20:36:35 IST" duration-ms="6011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_dash_001_adminSummary -->
+        <test-method signature="tc_dash_002_healthCheck()[pri:2, instance:com.rivio.tests.TC09_DashboardTest@8a62297]" started-at="2026-05-09T20:36:35 IST" name="tc_dash_002_healthCheck" description="System health check — public endpoint, no auth needed" finished-at="2026-05-09T20:36:36 IST" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_dash_002_healthCheck -->
+      </class> <!-- com.rivio.tests.TC09_DashboardTest -->
+    </test> <!-- TC09 - Dashboard Analytics -->
+  </suite> <!-- Rivio HRMS API Suite -->
+</testng-results>

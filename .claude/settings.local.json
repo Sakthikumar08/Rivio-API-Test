@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(@\\('Admin@123','securePassword123','admin','admin123','Password123','password','Rivio@123'\\) | ForEach-Object { $body = \"{`\"email`\":`\"admin@rivio.com`\",`\"password`\":`\"$_`\"}\"; try { $r = Invoke-RestMethod -Uri 'https://riviobackendspringboot-production.up.railway.app/api/auth/login' -Method POST -ContentType 'application/json' -Body $body -TimeoutSec 15 -ErrorAction Stop; \"OK with [$_] -> $\\(\\($r | ConvertTo-Json -Depth 4\\)\\)\"; break } catch { \"$_  -> $\\($_.Exception.Response.StatusCode.value__\\)\" } })"
+    ]
+  }
+}
